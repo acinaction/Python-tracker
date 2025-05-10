@@ -10,3 +10,7 @@ print(phrase[0]) # Prints the first character of the string
 print(phrase.index("G")) # Prints the index of the first occurrence of "G"
 # replace function
 print(phrase.replace("Giraffe", "Elephant")) # Replaces "Giraffe" with "Elephant"
+
+# Whenever we have to print a number in a string, we have to converrt it to string
+# Example:
+print("Giraffe Academy is " + str(10) + " times better than Giraffe Academy")
